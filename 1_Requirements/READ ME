@@ -1,1 +1,7 @@
-
+My goal is to make an automatic water supply of water to tank.
+Requirements:
+atmega328
+ultrasonic sensor(input)
+servo motor(output)
+LED'S (Indication)
+This is constructed and executed in Simulide software.As of the virtual input to the ultrasonic sensor I used a voltmeter in which connected to ULTRsonic sensor to create a input to the microprocessor.
