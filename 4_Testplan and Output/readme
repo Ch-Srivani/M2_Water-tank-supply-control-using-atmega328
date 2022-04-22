@@ -1,0 +1,5 @@
+I.In the gate on image it shows that when the ultrasonic sensor receives an input of less than 5 cm to 0 cm then the atmega microprocessor shuts down the gate valve
+  which can be done using a servo motor as shown in the circuit.
+II. In the gate off image it shows when the ultrasonic sensor receives an input of more than 5 cm the the atmega microprocessor opens the gate valve which is alson can be done the 
+    servo motor.
+    
