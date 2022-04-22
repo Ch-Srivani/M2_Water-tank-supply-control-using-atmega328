@@ -1,0 +1,25 @@
+#include <NewPing.h>
+#include <Servo.h>
+int LEDa = 3, LEDb = 2; 
+Servo myservo;
+void setup ()
+{
+Serial.begin (115200); 
+pinMode (trigPin,OUTPUT); 
+pinMode (echoPin,INPUT); 
+pinMode (LEDa,OUTPUT); 
+pinMode (LEDb,OUTPUT); 
+myservo.attach (9); 
+if (j<=5) 
+{
+digitalWrite (LEDa,LOW); 
+digitalWrite (LEDb,HIGH);
+myservo.write (180); 
+}
+else{ 
+digitalWrite (LEDa,LOW);
+digitalWrite (LEDb,HIGH); 
+myservo.write (90);
+}
+delay (450);
+}
